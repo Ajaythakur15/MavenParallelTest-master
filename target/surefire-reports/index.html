@@ -154,7 +154,7 @@
                   <a name="firefoxBrowserTest1">
                   </a> <!-- firefoxBrowserTest1 -->
                   <span class="method-name">firefoxBrowserTest1</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:20619
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:50080
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-RJ0D9O3&apos;, ip: &apos;192.168.0.185&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: driver.version: FirefoxDriver
@@ -168,7 +168,7 @@ Driver info: driver.version: FirefoxDriver
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:20619
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:50080
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -212,7 +212,7 @@ Caused by: java.net.ConnectException: Connection refused: getsockopt
                   <a name="firefoxBrowserTest2">
                   </a> <!-- firefoxBrowserTest2 -->
                   <span class="method-name">firefoxBrowserTest2</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45117
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:6453
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-RJ0D9O3&apos;, ip: &apos;192.168.0.185&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: driver.version: FirefoxDriver
@@ -226,7 +226,7 @@ Driver info: driver.version: FirefoxDriver
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45117
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:6453
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -351,26 +351,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'firefoxBrowserTest2')
+data.setCell(0, 1, 'firefoxBrowserTest1')
 data.setCell(0, 2, 'testcases.Testcase2')
-data.setCell(0, 3, 24142);
+data.setCell(0, 3, 21310);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'firefoxBrowserTest1')
+data.setCell(1, 1, 'firefoxBrowserTest2')
 data.setCell(1, 2, 'testcases.Testcase2')
-data.setCell(1, 3, 21599);
+data.setCell(1, 3, 21051);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'Reg_Test1')
 data.setCell(2, 2, 'testcases.Testcase1')
-data.setCell(2, 3, 3600);
+data.setCell(2, 3, 4006);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'chromeBrowserTest2')
 data.setCell(3, 2, 'testcases.Testcase1')
-data.setCell(3, 3, 2755);
+data.setCell(3, 3, 1967);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -403,7 +403,7 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">chromeBrowserTest2</span>
-                <span class="method-start">3601 ms</span>
+                <span class="method-start">4008 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -412,13 +412,13 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">firefoxBrowserTest1</span>
-                <span class="method-start">6383 ms</span>
+                <span class="method-start">5993 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">firefoxBrowserTest2</span>
-                <span class="method-start">27998 ms</span>
+                <span class="method-start">27309 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

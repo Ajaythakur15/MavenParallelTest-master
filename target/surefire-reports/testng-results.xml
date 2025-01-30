@@ -2,33 +2,33 @@
 <testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-30T15:37:19 IST" name="Suite" finished-at="2025-01-30T15:38:11 IST" duration-ms="52179">
+  <suite started-at="2025-01-30T15:45:20 IST" name="Suite" finished-at="2025-01-30T15:46:09 IST" duration-ms="48388">
     <groups>
     </groups>
-    <test started-at="2025-01-30T15:37:19 IST" name="Test1" finished-at="2025-01-30T15:37:26 IST" duration-ms="6397">
+    <test started-at="2025-01-30T15:45:20 IST" name="Test1" finished-at="2025-01-30T15:45:26 IST" duration-ms="6004">
       <class name="testcases.Testcase1">
-        <test-method signature="Reg_Test1()[pri:0, instance:testcases.Testcase1@5906ebcb]" started-at="2025-01-30T15:37:19 IST" name="Reg_Test1" finished-at="2025-01-30T15:37:23 IST" duration-ms="3600" status="PASS">
+        <test-method signature="Reg_Test1()[pri:0, instance:testcases.Testcase1@5906ebcb]" started-at="2025-01-30T15:45:20 IST" name="Reg_Test1" finished-at="2025-01-30T15:45:24 IST" duration-ms="4006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reg_Test1 -->
-        <test-method signature="chromeBrowserTest2()[pri:0, instance:testcases.Testcase1@5906ebcb]" started-at="2025-01-30T15:37:23 IST" name="chromeBrowserTest2" finished-at="2025-01-30T15:37:26 IST" duration-ms="2755" status="PASS">
+        <test-method signature="chromeBrowserTest2()[pri:0, instance:testcases.Testcase1@5906ebcb]" started-at="2025-01-30T15:45:24 IST" name="chromeBrowserTest2" finished-at="2025-01-30T15:45:26 IST" duration-ms="1967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeBrowserTest2 -->
       </class> <!-- testcases.Testcase1 -->
     </test> <!-- Test1 -->
-    <test started-at="2025-01-30T15:37:26 IST" name="Test2" finished-at="2025-01-30T15:38:11 IST" duration-ms="45759">
+    <test started-at="2025-01-30T15:45:26 IST" name="Test2" finished-at="2025-01-30T15:46:09 IST" duration-ms="42368">
       <class name="testcases.Testcase2">
-        <test-method signature="firefoxBrowserTest1()[pri:0, instance:testcases.Testcase2@1460a8c0]" started-at="2025-01-30T15:37:26 IST" name="firefoxBrowserTest1" finished-at="2025-01-30T15:37:47 IST" duration-ms="21599" status="FAIL">
+        <test-method signature="firefoxBrowserTest1()[pri:0, instance:testcases.Testcase2@1460a8c0]" started-at="2025-01-30T15:45:26 IST" name="firefoxBrowserTest1" finished-at="2025-01-30T15:45:48 IST" duration-ms="21310" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:20619
+              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:50080
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RJ0D9O3', ip: '192.168.0.185', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: driver.version: FirefoxDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:20619
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:50080
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RJ0D9O3', ip: '192.168.0.185', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: driver.version: FirefoxDriver
@@ -52,7 +52,7 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:20619
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:50080
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -93,16 +93,16 @@ at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firefoxBrowserTest1 -->
-        <test-method signature="firefoxBrowserTest2()[pri:0, instance:testcases.Testcase2@1460a8c0]" started-at="2025-01-30T15:37:47 IST" name="firefoxBrowserTest2" finished-at="2025-01-30T15:38:11 IST" duration-ms="24142" status="FAIL">
+        <test-method signature="firefoxBrowserTest2()[pri:0, instance:testcases.Testcase2@1460a8c0]" started-at="2025-01-30T15:45:48 IST" name="firefoxBrowserTest2" finished-at="2025-01-30T15:46:09 IST" duration-ms="21051" status="FAIL">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45117
+              <![CDATA[java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:6453
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RJ0D9O3', ip: '192.168.0.185', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: driver.version: FirefoxDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45117
+              <![CDATA[org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:6453
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-RJ0D9O3', ip: '192.168.0.185', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
 Driver info: driver.version: FirefoxDriver
@@ -126,7 +126,7 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45117
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:6453
 at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
