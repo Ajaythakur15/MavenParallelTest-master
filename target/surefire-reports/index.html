@@ -154,9 +154,9 @@
                   <a name="firefoxBrowserTest1">
                   </a> <!-- firefoxBrowserTest1 -->
                   <span class="method-name">firefoxBrowserTest1</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:16114
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:20619
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-RJ0D9O3&apos;, ip: &apos;192.168.0.185&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;
+System info: host: &apos;DESKTOP-RJ0D9O3&apos;, ip: &apos;192.168.0.185&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
@@ -165,10 +165,10 @@ Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
 	at testcases.Testcase2.firefoxBrowserTest1(Testcase2.java:16)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:16114
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:20619
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -192,18 +192,18 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 21 more
-Caused by: java.net.ConnectException: Connection refused: no further information
+	... 19 more
+Caused by: java.net.ConnectException: Connection refused: getsockopt
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:751)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 43 more
-... Removed 12 stack frames
+	... 41 more
+... Removed 10 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -212,9 +212,9 @@ Caused by: java.net.ConnectException: Connection refused: no further information
                   <a name="firefoxBrowserTest2">
                   </a> <!-- firefoxBrowserTest2 -->
                   <span class="method-name">firefoxBrowserTest2</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:64688
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45117
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-RJ0D9O3&apos;, ip: &apos;192.168.0.185&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.14&apos;
+System info: host: &apos;DESKTOP-RJ0D9O3&apos;, ip: &apos;192.168.0.185&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
 Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:92)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
@@ -223,10 +223,10 @@ Driver info: driver.version: FirefoxDriver
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:147)
 	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
 	at testcases.Testcase2.firefoxBrowserTest2(Testcase2.java:29)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:64688
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:45117
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
 	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
 	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
@@ -250,18 +250,18 @@ Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:
 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	... 21 more
-Caused by: java.net.ConnectException: Connection refused: no further information
+	... 19 more
+Caused by: java.net.ConnectException: Connection refused: getsockopt
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:547)
-	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:602)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
-	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/java.net.Socket.connect(Socket.java:751)
 	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
 	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-	... 43 more
-... Removed 12 stack frames
+	... 41 more
+... Removed 10 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -351,26 +351,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'firefoxBrowserTest1')
+data.setCell(0, 1, 'firefoxBrowserTest2')
 data.setCell(0, 2, 'testcases.Testcase2')
-data.setCell(0, 3, 23209);
+data.setCell(0, 3, 24142);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'firefoxBrowserTest2')
+data.setCell(1, 1, 'firefoxBrowserTest1')
 data.setCell(1, 2, 'testcases.Testcase2')
-data.setCell(1, 3, 20907);
+data.setCell(1, 3, 21599);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'chromeBrowserTest2')
+data.setCell(2, 1, 'Reg_Test1')
 data.setCell(2, 2, 'testcases.Testcase1')
-data.setCell(2, 3, 2828);
+data.setCell(2, 3, 3600);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Reg_Test1')
+data.setCell(3, 1, 'chromeBrowserTest2')
 data.setCell(3, 2, 'testcases.Testcase1')
-data.setCell(3, 3, 2199);
+data.setCell(3, 3, 2755);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 49 seconds</span>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -403,7 +403,7 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">chromeBrowserTest2</span>
-                <span class="method-start">2201 ms</span>
+                <span class="method-start">3601 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
@@ -412,13 +412,13 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">firefoxBrowserTest1</span>
-                <span class="method-start">5052 ms</span>
+                <span class="method-start">6383 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">firefoxBrowserTest2</span>
-                <span class="method-start">28266 ms</span>
+                <span class="method-start">27998 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
