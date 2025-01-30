@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-30T15:36:28 IST" name="Automation Suite" finished-at="2025-01-30T15:36:38 IST" duration-ms="10489">
+  <suite started-at="2025-01-30T15:56:18 IST" name="Automation Suite" finished-at="2025-01-30T15:56:36 IST" duration-ms="17790">
     <groups>
     </groups>
-    <test started-at="2025-01-30T15:36:28 IST" name="TestAjay Functional Tests" finished-at="2025-01-30T15:36:37 IST" duration-ms="9853">
+    <test started-at="2025-01-30T15:56:18 IST" name="TestAjay Functional Tests" finished-at="2025-01-30T15:56:28 IST" duration-ms="9276">
       <class name="testcases.Testcase1">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Testcase1@1dde4cb2]" started-at="2025-01-30T15:36:28 IST" name="setup" finished-at="2025-01-30T15:36:30 IST" duration-ms="2355" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Testcase1@43195e57]" started-at="2025-01-30T15:56:18 IST" name="setup" finished-at="2025-01-30T15:56:20 IST" duration-ms="1853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Reg_Test1()[pri:0, instance:testcases.Testcase1@1dde4cb2]" started-at="2025-01-30T15:36:30 IST" name="Reg_Test1" finished-at="2025-01-30T15:36:33 IST" duration-ms="2678" status="PASS">
+        <test-method signature="Reg_Test1()[pri:0, instance:testcases.Testcase1@43195e57]" started-at="2025-01-30T15:56:20 IST" name="Reg_Test1" finished-at="2025-01-30T15:56:22 IST" duration-ms="1767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Reg_Test1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Testcase1@1dde4cb2]" started-at="2025-01-30T15:36:33 IST" name="teardown" finished-at="2025-01-30T15:36:33 IST" duration-ms="168" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Testcase1@43195e57]" started-at="2025-01-30T15:56:22 IST" name="teardown" finished-at="2025-01-30T15:56:22 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Testcase1@1dde4cb2]" started-at="2025-01-30T15:36:33 IST" name="setup" finished-at="2025-01-30T15:36:34 IST" duration-ms="758" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Testcase1@43195e57]" started-at="2025-01-30T15:56:22 IST" name="setup" finished-at="2025-01-30T15:56:23 IST" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="chromeBrowserTest2()[pri:0, instance:testcases.Testcase1@1dde4cb2]" started-at="2025-01-30T15:36:34 IST" name="chromeBrowserTest2" finished-at="2025-01-30T15:36:37 IST" duration-ms="3025" status="PASS">
+        <test-method signature="chromeBrowserTest2()[pri:0, instance:testcases.Testcase1@43195e57]" started-at="2025-01-30T15:56:23 IST" name="chromeBrowserTest2" finished-at="2025-01-30T15:56:27 IST" duration-ms="4074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeBrowserTest2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Testcase1@1dde4cb2]" started-at="2025-01-30T15:36:37 IST" name="teardown" finished-at="2025-01-30T15:36:37 IST" duration-ms="827" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Testcase1@43195e57]" started-at="2025-01-30T15:56:27 IST" name="teardown" finished-at="2025-01-30T15:56:28 IST" duration-ms="597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcases.Testcase1 -->
     </test> <!-- TestAjay Functional Tests -->
-    <test started-at="2025-01-30T15:36:28 IST" name="TestAjay Regression Tests" finished-at="2025-01-30T15:36:38 IST" duration-ms="10489">
+    <test started-at="2025-01-30T15:56:28 IST" name="TestAjay Regression Tests" finished-at="2025-01-30T15:56:36 IST" duration-ms="8500">
       <class name="testcases.Testcase2">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Testcase2@36902638]" started-at="2025-01-30T15:36:28 IST" name="setup" finished-at="2025-01-30T15:36:30 IST" duration-ms="2109" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Testcase2@7f0eb4b4]" started-at="2025-01-30T15:56:28 IST" name="setup" finished-at="2025-01-30T15:56:28 IST" duration-ms="726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Fun_Test1()[pri:0, instance:testcases.Testcase2@36902638]" started-at="2025-01-30T15:36:30 IST" name="Fun_Test1" finished-at="2025-01-30T15:36:32 IST" duration-ms="2577" status="PASS">
+        <test-method signature="Fun_Test1()[pri:0, instance:testcases.Testcase2@7f0eb4b4]" started-at="2025-01-30T15:56:28 IST" name="Fun_Test1" finished-at="2025-01-30T15:56:31 IST" duration-ms="2625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fun_Test1 -->
-        <test-method signature="chromeBrowserTest2()[pri:0, instance:testcases.Testcase2@36902638]" started-at="2025-01-30T15:36:32 IST" name="chromeBrowserTest2" finished-at="2025-01-30T15:36:38 IST" duration-ms="5524" status="PASS">
+        <test-method signature="chromeBrowserTest2()[pri:0, instance:testcases.Testcase2@7f0eb4b4]" started-at="2025-01-30T15:56:31 IST" name="chromeBrowserTest2" finished-at="2025-01-30T15:56:36 IST" duration-ms="4910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chromeBrowserTest2 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Testcase2@36902638]" started-at="2025-01-30T15:36:38 IST" name="tearDown" finished-at="2025-01-30T15:36:38 IST" duration-ms="254" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Testcase2@7f0eb4b4]" started-at="2025-01-30T15:56:36 IST" name="tearDown" finished-at="2025-01-30T15:56:36 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

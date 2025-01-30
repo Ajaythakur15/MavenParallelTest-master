@@ -20,13 +20,13 @@ public class Testcase2 {
     @Test
     public void Fun_Test1() {
         driver.get("https://www.google.com/");
-        System.out.println("==> Firefox Test 1 executed.");
+        System.out.println("==> Chrome Test 1 executed.");
     }
 
     @Test
     public void chromeBrowserTest2() {
         driver.get("https://www.gmail.com/");
-        System.out.println("==> Firefox Test 2 executed.");
+        System.out.println("==> Chrome Test 2 executed.");
     }
 
     @AfterClass
