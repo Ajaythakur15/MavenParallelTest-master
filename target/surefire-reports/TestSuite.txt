@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.25 s -- in TestSuite
+=======
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 48.717 s <<< FAILURE! - in TestSuite
+testcases.Testcase2.firefoxBrowserTest1  Time elapsed: 21.315 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:50080
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RJ0D9O3', ip: '192.168.0.185', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: driver.version: FirefoxDriver
+	at testcases.Testcase2.firefoxBrowserTest1(Testcase2.java:16)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:50080
+	at testcases.Testcase2.firefoxBrowserTest1(Testcase2.java:16)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at testcases.Testcase2.firefoxBrowserTest1(Testcase2.java:16)
+
+testcases.Testcase2.firefoxBrowserTest2  Time elapsed: 21.052 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:6453
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RJ0D9O3', ip: '192.168.0.185', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: driver.version: FirefoxDriver
+	at testcases.Testcase2.firefoxBrowserTest2(Testcase2.java:29)
+Caused by: java.net.ConnectException: Failed to connect to localhost/[0:0:0:0:0:0:0:1]:6453
+	at testcases.Testcase2.firefoxBrowserTest2(Testcase2.java:29)
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at testcases.Testcase2.firefoxBrowserTest2(Testcase2.java:29)
+
+>>>>>>> 8ac808ad2be40d87a5425c37801a5c6c02e68fb4
